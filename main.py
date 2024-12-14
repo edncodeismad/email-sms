@@ -22,10 +22,7 @@ give a summary of the day so far
 sms messaging
 """
 
-USER_PHONE_NUMBER = '447827810219'
-GC_PROJECT_ID = 'model-training-441916'
-PUB_SUB_TOPIC_NAME = 'projects/model-training-441916/topics/gmail-pubsub'
-PUB_SUB_SUBSCRIPTION_NAME = 'projects/model-training-441916/subscriptions/gmail-pubsub-sub'
+USER_PHONE_NUMBER = ''
 
 GMAIL_SERVICE = authenticate_gmail()
 
