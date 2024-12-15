@@ -5,28 +5,11 @@ import asyncio
 import os
 import pickle
 
-# use keywords for actions, eg. if the users texts LIST REMINDERS or ADD REMINDER
-# OR - use normal language and get model to classify the actions
-
-
-"""
-gmail steps:
-get the credentials.json file (function will automatically create .pickle file)
-set up a gmail api on GCS
-
-TO IMPLEMENT:
-- remove parts of previous emails (eg. in Re) since no need to re-notify
-- chunk longer emails
-give a summary of the day so far
-
-sms messaging
-"""
-
 USER_PHONE_NUMBER = ''
 
 GMAIL_SERVICE = authenticate_gmail()
 
-reminders = {1: 'feed the cat'}
+reminders = {}
 last_content = ''
 
 tasks = {
