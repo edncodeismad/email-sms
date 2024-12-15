@@ -1,1 +1,1 @@
-# email-sms
+# testing out a reminder app
